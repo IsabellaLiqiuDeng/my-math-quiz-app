@@ -1,0 +1,98 @@
+/* Addition.css */
+
+/* Style for the container of all questions */
+.question-container {
+  margin: 2px;
+  padding: 1px;
+  width: 24%;
+  border: 1px solid #ccc;
+  background-color: hsla(165, 17%, 95%, 0.511);
+  vertical-align: top;
+  display: inline-block;
+}
+
+/* Style for individual question blocks */
+.question {
+  margin-bottom: 2px;
+}
+
+/* Style for question text */
+.question-text {
+  font-weight: bold;
+  color: black;
+  display: inline-block; 
+  font-size: 30px;
+}
+.question-number {
+  color: darkgreen;
+  font-size: 20px; /* Adjust the font size as needed */
+  margin-right: 20px; /* Add some margin between question number and text */
+}
+
+/* Style for user answer input */
+.user-answer-input {
+  width: 60px;
+  padding: 5px;
+}
+
+/* Style for the "Check Answer" button */
+.check-button {
+
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 20px 5px;
+  cursor: pointer;
+  margin-left:300px;
+  margin-top: 20px;
+}
+
+/* Style for feedback text */
+.feedback {
+  color: green;
+  font-weight: bold;
+}
+
+/* Style for incorrect feedback text */
+.feedback-incorrect {
+  color: red;
+  font-weight: bold;
+}
+
+.addition-page{
+    background-color: #ccc; /* Replace with the path to your new background image */
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+  }
+  .result-popup{
+    color: #007bff;
+    font-size: 25px;
+  }
+  .close-button{
+    background-color: #eb0dbf;
+    color: #fff;
+    border: none;
+    padding: 5px 1px;
+    cursor: pointer;
+    margin-left:800px;
+    margin-top: 0px;
+  }
+  .mark{
+    color:#eb0dbf
+  }
+  h1{
+    text-align: center;
+    color:rgb(34, 39, 178);
+    font-size: 50px;
+  }
+  .reload-button{
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 20px 5px;
+  cursor: pointer;
+  margin-left:1500px;
+  margin-top: 20px;
+  }

@@ -1,0 +1,25 @@
+/* NavigationBar.css */
+
+.navigation-bar {
+    background-color: #333; /* Set background color for the navigation bar */
+  }
+  
+  .navigation-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex; /* Use flexbox to horizontally align the items */
+  }
+  
+  .navigation-item {
+    margin: 0 10px; /* Add spacing between navigation items */
+  }
+  
+  .navigation-item a {
+    text-decoration: none;
+    color: white; /* Set link color */
+  }
+  
+  .navigation-item a:hover {
+    text-decoration: underline; /* Add an underline effect on hover */
+  }
+  

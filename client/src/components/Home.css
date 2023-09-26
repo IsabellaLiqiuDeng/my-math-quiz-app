@@ -1,0 +1,65 @@
+/* Home.css */
+
+/* Style for the container */
+.home-container {
+    text-align: left;
+    margin: 30px;
+    padding: 50px;
+    background-color: transparent; /* Replace with your desired background color */
+    color: black; /* Set text color to contrast with the background */
+    /* Set container width and position it to the left */
+    width: 40%; /* Adjust the width as needed */
+    float: left; /* Float the container to the left */
+  }
+  
+  /* Style for the title */
+  .home-container h1 {
+
+    font-size: 46px;
+    margin-bottom: 20px;
+    
+  }
+  .home-container p {
+
+    font-size: 30px;
+    margin-bottom: 20px;
+    
+  }
+  
+  /* Style for the quiz options list */
+  .quiz-options {
+    list-style: none;
+    padding: 0;
+  }
+  
+  /* Style for each quiz option */
+  .quiz-options li {
+    margin-bottom: 10px;
+  }
+  
+  /* Style for quiz category links */
+  .quiz-link {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    font-size: 36px;
+  }
+  
+  /* Style for quiz category links on hover */
+  .quiz-link:hover {
+    text-decoration: underline;
+    color: #0056b3;
+  }
+
+  /* Style for the rest of the page with a background image */
+  body {
+    /* Set a background image using the url() function */
+    background-image: url('./images/background.jpg'); /* Replace with your image file's path */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white; /* Set text color for content on the background image */
+    background-position: center center;
+  }
+  
+  
